@@ -72,7 +72,7 @@ Telegram бот с интеграцией DeepSeek API. Построен на п
 
 1. Клонирование
 ```bash
-git clone https://github.com/yourusername/telegram-deepseek-bot
+git clone https://github.com/yourusername/tg-gpt-bot
 ```
 
 2. Настройка окружения
