@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "tg-gpt-bot"
+version = "0.1.0"
+description = "Telegram DeepSeek Bot with Clean Architecture"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiogram = "^3.4.1"
+httpx = "^0.27.0"
+python-dotenv = "^1.0.0"
+pydantic = "^2.6.0"
+pydantic-settings = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+start-bot = "bot.main:main"
